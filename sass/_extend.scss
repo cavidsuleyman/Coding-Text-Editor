@@ -1,0 +1,11 @@
+.main{
+    width: $w1;
+    height: $h1;
+    padding: $p2;
+    display: flex;  
+}
+
+.left, .right{
+    flex-basis: $f1;
+    padding: $p1;
+}

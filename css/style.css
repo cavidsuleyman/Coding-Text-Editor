@@ -1,0 +1,54 @@
+.main, * body .main {
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+}
+
+.left, * body .main .left, * body .main .right, .right {
+  flex-basis: 50%;
+  padding: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+* body {
+  background: #454545;
+  color: white;
+}
+* body .main .left textarea, * body .main .right textarea {
+  width: 100%;
+  height: 28%;
+  background: #1f1f1f;
+  color: white;
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+}
+* body .main .left textarea::placeholder, * body .main .right textarea::placeholder {
+  visibility: hidden;
+}
+* body .main .left iframe, * body .main .right iframe {
+  width: 100%;
+  height: 95%;
+  border: 0;
+  outline: 0;
+  background: white;
+}
+* body .main .left label i, * body .main .right label i {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+* body .main .left label, * body .main .right label {
+  display: flex;
+  align-items: center;
+  background: #000;
+  height: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */

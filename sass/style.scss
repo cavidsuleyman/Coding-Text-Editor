@@ -1,0 +1,55 @@
+@import 'color';
+@import 'size';
+@import 'extend';
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+    body{
+        background: $c1;
+        color: $c2;
+
+        .main{
+            @extend .main;
+
+            .left, .right{
+                @extend .left, .right;
+
+                textarea{
+                    width: $w1;
+                    height: $h2;
+                    background: $c3;
+                    color: $c2;
+                    padding: $p1 $p2;
+                    outline: none;
+                    border: none;
+                    font-size: $s1;
+
+                    &::placeholder{
+                        visibility: hidden;
+                    }
+                }
+                iframe{
+                    width: $w1;
+                    height: $h3;
+                    border: 0;
+                    outline: 0;
+                    background: $c2;
+                }
+                label i{
+                   margin-right: $p1;
+                   margin-left: $p1; 
+                }
+                label{
+                    display: flex;
+                    align-items: center;
+                    background: $c4;
+                    height: $h4;
+                }
+            }
+        }
+    }
+}
