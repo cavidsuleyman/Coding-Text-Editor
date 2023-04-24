@@ -7,7 +7,7 @@
 Hello, today I create with html, sass/scss and js file for Coding-Text-Editor. I use here html, sass/scss and js tags, also I use here game library. 
 ## ## RULES OF USE
 
-> **STEP-1:** `https://github.com/cavidsuleyman/Arrow-Game.git` <br/>
+> **STEP-1:** `https://github.com/cavidsuleyman/Coding-Text-Editor.git` <br/>
 > **STEP-2:**  enter the `Coding-Text-Editor` folder that appears <br/>
 > **STEP-3:**  open the folder you are in in a text editor <br/>
 > **STEP-4:**  run the  all the`index.html` files in the main folder <br/>
