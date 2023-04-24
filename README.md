@@ -27,7 +27,3 @@ This project was developed using the following technologies
 | 4 | JS | Dynamic operations |
 | 5 | VSCode | Text editor used in the project |
 
-
-## SAMPLE SCREEN APPEARANCE
-
-![There was a screenshot here](./screen.png)
