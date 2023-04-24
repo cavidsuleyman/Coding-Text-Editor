@@ -11,7 +11,7 @@ Hello, today I create with html, sass/scss and js file for Coding-Text-Editor. I
 > **STEP-2:**  enter the `Coding-Text-Editor` folder that appears <br/>
 > **STEP-3:**  open the folder you are in in a text editor <br/>
 > **STEP-4:**  run the  all the`index.html` files in the main folder <br/>
-> **STEP-5:**  to download the project as `.zip`  [here](https://github.com/cavidsuleyman/Arrow-Game/archive/refs/heads/master.zip) click <br/>
+> **STEP-5:**  to download the project as `.zip`  [here](https://github.com/cavidsuleyman/Coding-Text-Editor/archive/refs/heads/master.zip) click <br/>
 > **STEP-6:**  Click this link and watch the game [here](https://black-ray.surge.sh/) <br/>
 
 
